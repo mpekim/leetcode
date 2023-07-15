@@ -4,4 +4,22 @@ public class palindromeNumber {
       System.out.println("Please enter a number: ");
    }
    // Check to see if the number is a palindrome.
+   // Currently, the number will be entered as a string.
+
+   public static boolean isPalindrome(String num1, String num2){
+      if (num1 == num2)
+      {
+         return true;
+      }
+      else
+      {
+         return false;
+      }
+   }
+   public static String convertIntToString(int number)
+   {
+      String newString = "1234";
+      // Converts numbers into strings, as needed.
+      return newString;
+   }
 }
