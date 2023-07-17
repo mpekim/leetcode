@@ -18,8 +18,8 @@ public class palindromeNumber {
    }
    public static String convertIntToString(int number)
    {
-      String newString = "1234";
-      // Converts numbers into strings, as needed.
+      String newString = toString(number);
+      // Converts numbers into strings, as needed. (Can this be done with a typecast?)
       return newString;
    }
 }
