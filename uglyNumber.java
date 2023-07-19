@@ -5,11 +5,14 @@ public class uglyNumber {
         System.out.println("Is the number 6 ugly?");
         System.out.println(uglyNumberCheck(6));
 
+        System.out.println("Please enter a number:");
+        
         Scanner input = new Scanner(System.in);
         int newNumber = input.nextInt();
 
+        System.out.println("Is " + newNumber + " ugly?");
         System.out.println(uglyNumberCheck(newNumber));
-    } // Perhaps add a Scanner for user input.
+    }
 
     public static boolean uglyNumberCheck(int value){
         if (value <= 0){
