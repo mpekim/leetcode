@@ -1,9 +1,13 @@
+import java.util.Scanner;
+
 public class oddInt
 {
     public static void main(String[] args)
     {
         System.out.println("Odd number range between 3 and 7: ");
         System.out.println(oddIntCount(3, 7));
+
+        // Create functions that allow the user to accept input.
     }
 
     public static int oddIntCount(int low, int high){
