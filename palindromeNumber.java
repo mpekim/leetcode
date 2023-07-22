@@ -37,6 +37,7 @@ public class palindromeNumber {
       System.out.println("New number string: " + newString);
 
       // Use a mod loop to get the digits.
+      // Number is currently printed in reverse.
       return newString;
    }
 }
