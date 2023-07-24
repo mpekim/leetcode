@@ -5,6 +5,8 @@ public class twoSum {
 
         int[] arr = {2, 3, 4, 5};
         int[] solution = findTwoSum(arr, 5);
+        // Research why arrays must always be initialized
+        // when declared.
 
         presentSolution(solution[0], solution[1]);
     }
@@ -27,6 +29,7 @@ public class twoSum {
         }
 
         int[] solution = {-1, -1};
+        // Present this solution as "error code".
 
         return solution;
     }

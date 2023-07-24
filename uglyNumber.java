@@ -12,6 +12,7 @@ public class uglyNumber {
 
         System.out.println("Is " + newNumber + " ugly?");
         System.out.println(uglyNumberCheck(newNumber));
+        input.close();
     }
 
     public static boolean uglyNumberCheck(int value){
