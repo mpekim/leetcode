@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+
 def palindrome_number(value):
     if (value == value[::-1]):
         return True
