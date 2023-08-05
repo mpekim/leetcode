@@ -16,6 +16,7 @@ public class palindromeNumber {
    // Currently, the number will be entered as a string.
 
    public static boolean isPalindrome(String num1){
+      // Fix logical check with self here.
       if (num1 == num1)
       {
          return true;
