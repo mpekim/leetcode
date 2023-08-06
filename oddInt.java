@@ -16,7 +16,7 @@ public class oddInt
         System.out.println("Please enter a value for the upper boundary: ");
         int high = input.nextInt();
 
-        System.out.println("Odd number range between " + low + " and " + high + ": " + oddIntCount(low, high));
+        System.out.println("Odd number count between " + low + " and " + high + ": " + oddIntCount(low, high));
         input.close();
     }
 
