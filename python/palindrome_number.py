@@ -1,3 +1,5 @@
+#print("Welcome to the palindrome_number.py file.")
+
 def palindrome_number(value):
     if (value == value[::-1]):
         return True
@@ -5,8 +7,6 @@ def palindrome_number(value):
         return False
 
 def run_program():
-
-    print("Welcome to the palindrome_number.py file.")
     number_string = input("Please enter a number value: ")
 
     print("Is the value " + number_string + " a palindrome: " + str(palindrome_number(number_string)))
@@ -24,8 +24,8 @@ def continue_check():
         print("Resorting to default value (No).")
         print()
 
-continue_program = True
+"""continue_program = True
 
 while (continue_program == True):
     run_program()
-    continue_program = continue_check()
+    continue_program = continue_check()"""

@@ -1,3 +1,5 @@
+#print("Welcome to the two_sum.py file.")
+
 def two_sum(list, sum):
     for i in list:
         for j in list:
@@ -6,7 +8,6 @@ def two_sum(list, sum):
     return "Sum not found"
 
 def run_program():
-    print("Welcome to the two_sum.py file.")
 
     list_size = int(input("Please enter a value for the size of the list: "))
     
@@ -37,9 +38,9 @@ def continue_check():
         print("Resorting to default value (No)")
         return False
 
-program_continue = True
+"""program_continue = True
 
 while (program_continue == True):
     run_program()
     program_continue = continue_check()
-    print("")
+    print("")"""
