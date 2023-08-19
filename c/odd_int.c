@@ -1,13 +1,14 @@
-# include <stdio.h>
-
-void clear_keyboard_buffer(void);
+#include <stdio.h>
 
 int get_odd_range(int low, int high);
+
+void clear_keyboard_buffer(void);
 
 int main(int argc, char* argv[])
 {
     int low;
     int high;
+    int range;
 
     printf("Please enter a value for the lower bound: ");
     low = scanf("%c", &low);
@@ -32,10 +33,12 @@ int get_odd_range(int low, int high)
     {
         low = low - 1;
     }
+
     if (high % 2 == 1)
     {
         high = high + 1;
     }
+    
     range = (high - low) / 2;
 
     return range;
