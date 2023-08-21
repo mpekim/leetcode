@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class palindromeNumber {
-   public static void main(String[] args) 
+   public void run() 
    {
       System.out.println("Please enter a number: ");
       Scanner input = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class palindromeNumber {
    // Check to see if the number is a palindrome.
    // Currently, the number will be entered as a string.
 
-   public static boolean isPalindrome(String num1){
+   public boolean isPalindrome(String num1){
       // Fix logical check with self here.
       if (num1 == num1)
       {

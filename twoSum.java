@@ -1,5 +1,5 @@
 public class twoSum {
-    public static void main(String[] args){
+    public void run(){
         
         System.out.println("Welcome to the TwoSum program.");
 
@@ -11,7 +11,7 @@ public class twoSum {
         presentSolution(solution[0], solution[1]);
     }
 
-    public static int[] findTwoSum(int[] list, int answer){
+    public int[] findTwoSum(int[] list, int answer){
 
         for (int i = 0; i < list.length; i++)
         {

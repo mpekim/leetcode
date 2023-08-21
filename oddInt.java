@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class oddInt
 {
-    public static void main(String[] args)
+    public void run()
     {
         System.out.println("Odd number range between 3 and 7: ");
         System.out.println(oddIntCount(3, 7));
@@ -20,7 +20,7 @@ public class oddInt
         input.close();
     }
 
-    public static int oddIntCount(int low, int high){
+    public int oddIntCount(int low, int high){
             if (low % 2 == 1)
             {
                 low--;

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class uglyNumber {
-    public static void main(String [] args){
+    public void run(){
         System.out.println("Is the number 6 ugly?");
         System.out.println(uglyNumberCheck(6));
 
