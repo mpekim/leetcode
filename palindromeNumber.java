@@ -16,8 +16,14 @@ public class palindromeNumber {
    // Currently, the number will be entered as a string.
 
    public boolean isPalindrome(String num1){
-      // Fix logical check with self here.
-      if (num1 == num1)
+      String reverse = "";
+
+      for (int i = 0; i < num1.length(); i++)
+      {
+         reverse = num1.charAt(i) + reverse;
+      }
+
+      if (num1 == reverse)
       {
          return true;
       }
