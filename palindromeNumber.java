@@ -23,7 +23,7 @@ public class palindromeNumber {
          reverse = num1.charAt(i) + reverse;
       }
 
-      if (num1 == reverse)
+      if (num1.equals(reverse))
       {
          return true;
       }
