@@ -17,7 +17,6 @@ public class oddInt
         int high = input.nextInt();
 
         System.out.println("Odd number count between " + low + " and " + high + ": " + oddIntCount(low, high));
-        input.close();
     }
 
     public int oddIntCount(int low, int high){

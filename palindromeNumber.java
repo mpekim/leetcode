@@ -10,7 +10,6 @@ public class palindromeNumber {
       String convertNumber = convertIntToString(number);
 
       System.out.println("Is " + convertNumber + " a palindrome? " + isPalindrome(convertNumber));
-      input.close();
    }
    // Check to see if the number is a palindrome.
    // Currently, the number will be entered as a string.

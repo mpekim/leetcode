@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        boolean continue_program = true;
+        boolean continueProgram = true;
 
-        while (continue_program == true)
+        while (continueProgram == true)
         {
-            run_program();
-            continue_program = continue_check();
+            runProgram();
+            continueProgram = continueCheck();
         }
     }
 
-        public static void run_program(){
+        public static void runProgram(){
             System.out.println("Welcome to the Java Leetcode program.");
             System.out.println("Please select a program to run: ");
             System.out.println("1. Odd Int");
@@ -46,10 +46,25 @@ public class Main {
             }
     }
 
-    public static boolean continue_check()
+    public static boolean continueCheck()
             {
                 System.out.println("Would you like to continue? [y/n]:");
-                return true;
+                Scanner result = new Scanner(System.in);
+                String answer = result.nextLine();
+
+                switch (answer)
+                {
+                    case "y":
+                    case "Y":
+                        return true;
+                    case "n":
+                    case "N":
+                        return false;
+                    default:
+                        System.out.println("I'm sorry, I do not understand that input.");
+                        System.out.println("Resorting to default answer (no).");
+                        return false;
+                }
             }
     // Driver function for the other leetcode classes.
 
