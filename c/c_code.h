@@ -20,5 +20,5 @@ int get_odd_range(int low, int high);
 Bool check_palindrome(int number);
 // Declarations for palindrome_number.c
 
-int* get_two_sum(int* list);
+int* get_two_sum(int* list, int sum);
 // Declarations for two_sum.c
