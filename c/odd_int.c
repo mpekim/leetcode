@@ -1,29 +1,4 @@
-#include <stdio.h>
-
-int get_odd_range(int low, int high);
-
-void clear_keyboard_buffer(void);
-
-int main(int argc, char* argv[])
-{
-    int low;
-    int high;
-    int range;
-
-    printf("Please enter a value for the lower bound: ");
-    low = scanf("%c", &low);
-
-    clear_keyboard_buffer();
-
-    printf("Please enter a value for the upper bound: ");
-    high = scanf("%c", &high);
-
-    clear_keyboard_buffer();
-
-    printf("The amount of odd numbers between %d and %d is: %d\n", low, high, range);
-
-    return 0;
-}
+#include "c_code.h"
 
 int get_odd_range(int low, int high)
 {
@@ -42,12 +17,4 @@ int get_odd_range(int low, int high)
     range = (high - low) / 2;
 
     return range;
-}
-
-void clear_keyboard_buffer(void)
-{
-    char c;
-    do{
-        scanf("%c", &c);
-    } while (c != "\n");
 }
