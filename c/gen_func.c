@@ -14,6 +14,8 @@ int get_input(void)
         num_of_conversions = scanf("%d", &input);
         clear_keyboard_buffer();
     }
+
+    return input;
 }
 
 void clear_keyboard_buffer(void)
