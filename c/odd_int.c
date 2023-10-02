@@ -1,5 +1,10 @@
 #include "c_code.h"
 
+void run_oi(void)
+{
+    return;
+}
+
 int get_odd_range(int low, int high)
 {
     int range;
