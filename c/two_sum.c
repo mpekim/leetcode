@@ -1,7 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "c_code.h"
 
-int main(int argc, char* argv[])
+void run_ts(void)
 {
-    return 0;
+    return;
+}
+
+int* get_two_sum(int* list, int sum, int size)
+{
+   for (int i = 0; i < size; i++)
+   {
+    
+   }
 }
