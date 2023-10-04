@@ -8,7 +8,7 @@ int get_input(void)
     num_of_conversions = scanf("%d", &input);
     clear_keyboard_buffer();
 
-    while (num_of_conversions =! 1)
+    while (num_of_conversions != 1)
     {
         printf("I'm sorry, I do not understand that input. Please try again.\n");
         num_of_conversions = scanf("%d", &input);
