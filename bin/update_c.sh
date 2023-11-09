@@ -1,4 +1,4 @@
-# C repository auto-commit.
+# C sub-repository auto-commit.
 echo "Starting auto-commit for C-files..."
 git add c/
 
