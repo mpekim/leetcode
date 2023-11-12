@@ -1,6 +1,20 @@
 import java.util.*;
 
 public class palindromeNumber {
+
+   private static palindromeNumber instance;
+
+   public static palindromeNumber getInstance(){
+      if (instance == null){
+         instance = new palindromeNumber();
+      }
+      return instance;
+   }
+   
+   private palindromeNumber(){
+
+   }
+
    public void run() 
    {
       System.out.println("Please enter a number: ");

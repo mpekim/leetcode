@@ -2,6 +2,19 @@ import java.util.*;
 
 public class oddInt
 {
+    private static oddInt instance;
+
+    public static oddInt getInstance(){
+        if (instance == null){
+            instance = new oddInt();
+        }
+        return instance;
+    }
+    
+    private oddInt(){
+
+    }
+
     public void run()
     {
         System.out.println("Odd number range between 3 and 7: ");

@@ -1,6 +1,20 @@
 import java.util.*;
 
 public class twoSum {
+
+    private static twoSum instance;
+
+    public static twoSum getInstance(){
+        if (instance == null){
+            instance = new twoSum();
+        }
+        return instance;
+    }
+
+    private twoSum(){
+
+    }
+
     public void run(){
         
         System.out.println("Welcome to the TwoSum program.");

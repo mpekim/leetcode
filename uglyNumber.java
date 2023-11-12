@@ -1,6 +1,20 @@
 import java.util.*;
 
 public class uglyNumber {
+
+    private static uglyNumber instance;
+
+    public static uglyNumber getInstance(){
+        if (instance == null){
+            instance = new uglyNumber();
+        }
+        return instance;
+    }
+
+    private uglyNumber(){
+
+    }
+
     public void run(){
         System.out.println("Is the number 6 ugly?");
         System.out.println(uglyNumberCheck(6));

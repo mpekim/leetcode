@@ -25,19 +25,19 @@ public class Main {
             switch(menuChoice)
             {
                 case 1:
-                    oddInt o1 = new oddInt();
+                    oddInt o1 = oddInt.getInstance();
                     o1.run();
                     break;
                 case 2:
-                    palindromeNumber p1 = new palindromeNumber();
+                    palindromeNumber p1 = palindromeNumber.getInstance();
                     p1.run();
                     break;
                 case 3:
-                    twoSum t1 = new twoSum();
+                    twoSum t1 = twoSum.getInstance();
                     t1.run();
                     break;
                 case 4:
-                    uglyNumber u1 = new uglyNumber();
+                    uglyNumber u1 = uglyNumber.getInstance();
                     u1.run();
                     break;
                 default:
