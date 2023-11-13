@@ -3,20 +3,26 @@
 void run_ts(void)
 {
     print("Welcome to the Two Sum program.\n");
-    int* list = create_new_list();
+    int size;
+    int sum;
 
-    
+    printf("Please enter a value for the size of the list: ");
+    size = get_input();
+
+    int* list = create_new_list(size);
+
+    printf("Please enter a value for the sum to be found: ");
+    sum = get_input();
+
+    int solution[] = get_two_sum(list, sum, size);
+
     return;
 }
 
-int* create_int_list(void)
+int* create_int_list(int size)
 {
-    int size;
     int* new_list;
 
-    printf("Please enter a value for the size of the list: ");
-
-    size = get_input();
     new_list = (int*)malloc(sizeof(int) * size);
 
     if (new_list == NULL)
