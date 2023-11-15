@@ -9,7 +9,10 @@ enum bool
 
 typedef enum bool Bool;
 
-int get_input(void);
+int get_input_int(void);
+char get_input_char(void);
+void present_choice_menu(void);
+Bool continue_program(void)
 void clear_keyboard_buffer(void);
 // Barebones functions used throughout all programs.
 
