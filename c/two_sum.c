@@ -50,6 +50,7 @@ int* get_two_sum(int* list, int sum, int size)
         {
             if (list[i] + list[j] == sum)
             {
+                printf("Solution found.\n");
                 solution[0] = i;
                 solution[1] = j;
 
