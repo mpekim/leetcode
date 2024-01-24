@@ -1,3 +1,6 @@
+#ifndef C_CODE_H_
+#define C_CODE_H_
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,3 +32,5 @@ void run_ts(void);
 int* create_int_list(void);
 int* get_two_sum(int* list, int sum, int size);
 // Declarations for two_sum.c
+
+#endif // C_CODE_H_
