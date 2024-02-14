@@ -6,10 +6,10 @@ void run_oi(void)
     int high;
 
     printf("Please enter a value for the lower boundary: ");
-    low = get_input();
+    low = get_input_int();
 
     printf("Please enter a value for the upper boundary: ");
-    high = get_input();
+    high = get_input_int();
 
     printf("The amount of odd numbers between %d and %d is %d\n", low, high, get_odd_range(low, high));
     
