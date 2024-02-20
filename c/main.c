@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
         int choice;
         int num_of_conversions = 0;
 
-        printf("Welcome to the Leetcode C-interface.\n");
+        printf("Welcome to the Leetcode C interface.\n");
         print("Please enter the program that you would like to run: ");
         present_choice_menu();
         choice = get_input();
