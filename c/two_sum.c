@@ -7,12 +7,12 @@ void run_ts(void)
     int sum;
 
     printf("Please enter a value for the size of the list: ");
-    size = get_input();
+    size = get_input_int();
 
     int* list = create_new_list(size);
 
     printf("Please enter a value for the sum to be found: ");
-    sum = get_input();
+    sum = get_input_int();
 
     int solution[] = get_two_sum(list, sum, size);
 
