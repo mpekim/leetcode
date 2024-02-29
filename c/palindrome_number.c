@@ -10,7 +10,7 @@ Bool check_palindrome(int number)
     num_string = create_num_string(number);
 
     printf("Please enter a value for the number to be checked: ");
-    number = get_input();
+    number = get_input_int();
 
     return FALSE;
 }
