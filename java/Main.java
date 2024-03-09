@@ -20,6 +20,7 @@ public class Main {
             System.out.println("4. Ugly Number");
     
             Scanner input = new Scanner(System.in);
+            // Figure out how to properly close Scanners.
             int menuChoice = input.nextInt();
     
             switch(menuChoice)
