@@ -22,6 +22,7 @@ public class oddInt
 
         // Create functions that allow the user to accept input.
         Scanner input = new Scanner(System.in);
+        // Figure out how to properly close Scanners.
 
         System.out.println("Please enter a value for the lower boundary: ");
         int low = input.nextInt();
