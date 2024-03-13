@@ -1,3 +1,4 @@
+-- Original Query
 SELECT Email
 FROM Person
 GROUP BY Email
