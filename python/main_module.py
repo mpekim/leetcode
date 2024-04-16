@@ -11,6 +11,7 @@ while (program_continue == True):
     print("1. Odd Int")
     print("2. Palindrome Number")
     print("3. Two Sum")
+
     menu_choice = int(input("Please enter a choice of program to run: "))
     
     if (menu_choice == 1):
