@@ -33,4 +33,6 @@ int* create_int_list(void);
 int* get_two_sum(int* list, int sum, int size);
 // Declarations for two_sum.c
 
+// Declarations for num_stud_ute.c
+
 #endif // C_CODE_H_
