@@ -1,5 +1,6 @@
 # Auto-commit for all files.
 echo "Starting auto-commit for entire repository..."
+
 git add .
 
 git commit -m "Auto commit."
