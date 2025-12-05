@@ -6,6 +6,7 @@ import palindrome_number as pn
 import two_sum as ts
 
 root = tk.Tk()
+root.geometry("350x125")
 
 message = tk.Label(root, text = "Welcome to " \
 "the Tkinter Python GUI for Leetcode programs.\n" \
@@ -21,9 +22,13 @@ button_pal_num = tk.Button(root, text = "Palindrome Number",
 button_two_sum = tk.Button(root, text = "Two Sum",
                              command = ts.run_program)
 
-button_num_stud.pack(padx = 30, pady = 30)
-button_odd_int.pack(padx = 30, pady = 30)
-button_pal_num.pack(padx = 30, ady = 30)
-button_two_sum.pack(padx = 30, pady = 30)
+button_num_stud.pack()
+button_num_stud.place(x = 20, y = 40)
+button_odd_int.pack()
+button_odd_int.place(x = 210, y = 40)
+button_pal_num.pack()
+button_pal_num.place(x = 20, y = 90)
+button_two_sum.pack()
+button_two_sum.place(x = 210, y = 90)
 
 root.mainloop()
