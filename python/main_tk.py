@@ -14,13 +14,13 @@ message = tk.Label(root, text = "Welcome to " \
 message.pack()
 
 button_num_stud = tk.Button(root, text = "Num Stud UTE",
-                             command = nsu.unable_to_eat)
+bg = "#FF0000", fg = "#000000", command = nsu.unable_to_eat)
 button_odd_int = tk.Button(root, text = "Odd Int",
-                             command = oi.run_program)
-button_pal_num = tk.Button(root, text = "Palindrome Number",
-                             command = pn.run_program)
+bg = "#FFFF00", fg = "#000000", command = oi.run_program)
+button_pal_num = tk.Button(root, text = "Palindrome Number", 
+bg = "#00AAFF", fg = "#000000", command = pn.run_program)
 button_two_sum = tk.Button(root, text = "Two Sum",
-                             command = ts.run_program)
+bg = "#32CD32", fg = "#000000", command = ts.run_program)
 
 button_num_stud.pack()
 button_num_stud.place(x = 20, y = 40)
