@@ -14,7 +14,7 @@ message = tk.Label(root, text = "Welcome to " \
 message.pack()
 
 button_num_stud = tk.Button(root, text = "Num Stud UTE",
-bg = "#FF0000", fg = "#000000", command = nsu.unable_to_eat)
+bg = "#FF0000", fg = "#000000", command = nsu.run_program)
 
 button_odd_int = tk.Button(root, text = "Odd Int",
 bg = "#FFFF00", fg = "#000000", command = oi.run_program)

@@ -21,3 +21,7 @@ def unable_to_eat():
         else:
             break
     return int(total - eat)
+
+def run_program():
+    number = unable_to_eat()
+    print(number)
