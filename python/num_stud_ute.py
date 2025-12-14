@@ -17,9 +17,8 @@ def unable_to_eat():
         
         if (len(sandwiches) > 0):
             top = sandwiches[0]
-
         else:
-            break
+            break     
     return int(total - eat)
 
 def run_program():
